@@ -1,0 +1,10 @@
+C:\Users\USER\Desktop\Coding practice\Pythagorean Theorem\Pythagorean Theorem\bin\Debug\Pythagorean Theorem.exe.config
+C:\Users\USER\Desktop\Coding practice\Pythagorean Theorem\Pythagorean Theorem\bin\Debug\Pythagorean Theorem.exe
+C:\Users\USER\Desktop\Coding practice\Pythagorean Theorem\Pythagorean Theorem\bin\Debug\Pythagorean Theorem.pdb
+C:\Users\USER\Desktop\Coding practice\Pythagorean Theorem\Pythagorean Theorem\obj\Debug\Pythagorean Theorem.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Coding practice\Pythagorean Theorem\Pythagorean Theorem\obj\Debug\Pythagorean_Theorem.Properties.Resources.resources
+C:\Users\USER\Desktop\Coding practice\Pythagorean Theorem\Pythagorean Theorem\obj\Debug\Pythagorean Theorem.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\Coding practice\Pythagorean Theorem\Pythagorean Theorem\obj\Debug\Pythagorean Theorem.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Coding practice\Pythagorean Theorem\Pythagorean Theorem\obj\Debug\Pythagorean Theorem.exe
+C:\Users\USER\Desktop\Coding practice\Pythagorean Theorem\Pythagorean Theorem\obj\Debug\Pythagorean Theorem.pdb
+C:\Users\USER\Desktop\Coding practice\Pythagorean Theorem\Pythagorean Theorem\obj\Debug\Pythagorean_Theorem.Pyth.resources
