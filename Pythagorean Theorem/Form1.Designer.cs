@@ -39,13 +39,15 @@ namespace Pythagorean_Theorem
             this.button1 = new System.Windows.Forms.Button();
             this.Answertxt = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnShowFormula = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(43, 172);
+            this.label1.Location = new System.Drawing.Point(43, 221);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(107, 29);
@@ -60,7 +62,7 @@ namespace Pythagorean_Theorem
             "Adjacent",
             "Opposite",
             "Hypotenus"});
-            this.Sidescmb.Location = new System.Drawing.Point(239, 166);
+            this.Sidescmb.Location = new System.Drawing.Point(239, 215);
             this.Sidescmb.Name = "Sidescmb";
             this.Sidescmb.Size = new System.Drawing.Size(259, 45);
             this.Sidescmb.TabIndex = 1;
@@ -70,7 +72,7 @@ namespace Pythagorean_Theorem
             // 
             this.firstlb1.AutoSize = true;
             this.firstlb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.firstlb1.Location = new System.Drawing.Point(43, 257);
+            this.firstlb1.Location = new System.Drawing.Point(43, 306);
             this.firstlb1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.firstlb1.Name = "firstlb1";
             this.firstlb1.Size = new System.Drawing.Size(128, 29);
@@ -80,14 +82,14 @@ namespace Pythagorean_Theorem
             // firsttxt
             // 
             this.firsttxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.firsttxt.Location = new System.Drawing.Point(239, 248);
+            this.firsttxt.Location = new System.Drawing.Point(239, 297);
             this.firsttxt.Name = "firsttxt";
             this.firsttxt.Size = new System.Drawing.Size(189, 44);
             this.firsttxt.TabIndex = 3;
             // 
             // sectxt
             // 
-            this.sectxt.Location = new System.Drawing.Point(239, 338);
+            this.sectxt.Location = new System.Drawing.Point(239, 387);
             this.sectxt.Name = "sectxt";
             this.sectxt.Size = new System.Drawing.Size(189, 35);
             this.sectxt.TabIndex = 4;
@@ -95,7 +97,7 @@ namespace Pythagorean_Theorem
             // seclbl
             // 
             this.seclbl.AutoSize = true;
-            this.seclbl.Location = new System.Drawing.Point(41, 341);
+            this.seclbl.Location = new System.Drawing.Point(41, 390);
             this.seclbl.Name = "seclbl";
             this.seclbl.Size = new System.Drawing.Size(177, 29);
             this.seclbl.TabIndex = 5;
@@ -104,7 +106,7 @@ namespace Pythagorean_Theorem
             // answerLbl
             // 
             this.answerLbl.AutoSize = true;
-            this.answerLbl.Location = new System.Drawing.Point(54, 419);
+            this.answerLbl.Location = new System.Drawing.Point(54, 505);
             this.answerLbl.Name = "answerLbl";
             this.answerLbl.Size = new System.Drawing.Size(113, 29);
             this.answerLbl.TabIndex = 6;
@@ -114,9 +116,9 @@ namespace Pythagorean_Theorem
             // 
             this.button1.BackColor = System.Drawing.SystemColors.HotTrack;
             this.button1.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.button1.Location = new System.Drawing.Point(239, 508);
+            this.button1.Location = new System.Drawing.Point(60, 436);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 57);
+            this.button1.Size = new System.Drawing.Size(141, 40);
             this.button1.TabIndex = 7;
             this.button1.Text = "Calculate";
             this.button1.UseVisualStyleBackColor = false;
@@ -125,7 +127,7 @@ namespace Pythagorean_Theorem
             // Answertxt
             // 
             this.Answertxt.AutoSize = true;
-            this.Answertxt.Location = new System.Drawing.Point(246, 419);
+            this.Answertxt.Location = new System.Drawing.Point(176, 507);
             this.Answertxt.Name = "Answertxt";
             this.Answertxt.Size = new System.Drawing.Size(28, 29);
             this.Answertxt.TabIndex = 8;
@@ -141,12 +143,36 @@ namespace Pythagorean_Theorem
             this.label2.Text = "MY PYTHAGORAS THEOREM";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnClear
+            // 
+            this.btnClear.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnClear.Location = new System.Drawing.Point(475, 538);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(104, 42);
+            this.btnClear.TabIndex = 10;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // btnShowFormula
+            // 
+            this.btnShowFormula.BackColor = System.Drawing.Color.AliceBlue;
+            this.btnShowFormula.Location = new System.Drawing.Point(38, 125);
+            this.btnShowFormula.Name = "btnShowFormula";
+            this.btnShowFormula.Size = new System.Drawing.Size(186, 36);
+            this.btnShowFormula.TabIndex = 11;
+            this.btnShowFormula.Text = "Show formula";
+            this.btnShowFormula.UseVisualStyleBackColor = false;
+            this.btnShowFormula.Click += new System.EventHandler(this.btnShowFormula_Click);
+            // 
             // Pyth
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(616, 618);
+            this.Controls.Add(this.btnShowFormula);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Answertxt);
             this.Controls.Add(this.button1);
@@ -179,6 +205,8 @@ namespace Pythagorean_Theorem
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label Answertxt;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnShowFormula;
     }
 }
 

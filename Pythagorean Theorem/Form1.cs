@@ -56,6 +56,8 @@ namespace Pythagorean_Theorem
 
         private void button1_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Clicked!"); // Button to click
+
             if (Sidescmb.Text != "")
             {
 
@@ -99,8 +101,36 @@ namespace Pythagorean_Theorem
             {
                 MessageBox.Show("Choose a side to find for");
             }
-        }    
-       
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            
+            firsttxt.Text = string.Empty;
+            sectxt.Text = string.Empty;
+            Answertxt.Text = string.Empty;
+
+            
+            Sidescmb.SelectedIndex = -1; // Clear the selected side
+            firstlb1.Text = "First Side";
+            seclbl.Text = "Second Side";
+
+        }
+
+        private void btnShowFormula_Click(object sender, EventArgs e)
+        {
+            // Check the current text of the button
+            if (btnShowFormula.Text == "Show Formula")
+            {
+                // Change the text to display the formula
+                btnShowFormula.Text = "a² + b² = c²";
+            }
+            else
+            {
+                // Change the text back to the original
+                btnShowFormula.Text = "Show Formula";
+            }
+        }
     }   
 }
 
