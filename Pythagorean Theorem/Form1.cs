@@ -121,16 +121,16 @@ namespace Pythagorean_Theorem
         {
             // Check the current text of the button
             if (btnShowFormula.Text == "Show Formula")
-            {
-                // Change the text to display the formula
+            { 
                 btnShowFormula.Text = "a² + b² = c²";
             }
             else
             {
-                // Change the text back to the original
                 btnShowFormula.Text = "Show Formula";
             }
         }
+
+       
     }   
 }
 
